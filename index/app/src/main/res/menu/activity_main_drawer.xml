@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@mipmap/ic_ezgo"
+            android:title="地圖導覽"/>
+
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info_outline_white_36dp"
+            android:title="園區簡介"/>
+
+        <item
+            android:id="@+id/nav_mile"
+            android:icon="@drawable/trophy_48"
+            android:title="里程碑" />
+    </group>
+
+
+    <item android:title="設定" android:id="@+id/setting">
+        <menu>
+            <item
+                android:id="@+id/nav_language"
+                android:icon="@drawable/ic_exchange"
+                android:title="更改語系" />
+
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_contact_mail_black_36dp"
+                android:title="聯繫我們" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="分享" />
+        </menu>
+    </item>
+
+
+
+</menu>
